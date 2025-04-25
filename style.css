@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 2;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+    nav h1 {
+        color: var(--color-primario);
+      }
+      
+    nav a {
+        color: var(--color-primario);
+        transition: var(--transicion);
+      }
+    nav a:hover {
+        color: var(--valor-secundario);
+        border-bottom: 2px solid var(--valor-secundario);
+      }
+      
+    nav ul {
+        display: flex;
+        gap: 1.9rem;
+      }
+      
+    nav ul li {
+        font-weight: var(--negrita);
+      }
+    
+    nav h1 {
+      color: var(--color-primario);
+    }
+    
+    nav a {
+      color: var(--color-primario);
+      transition: var(--transicion);
+    }
+    nav a:hover {
+      color: var(--valor-secundario);
+      border-bottom: 2px solid var(--valor-secundario);
+    }
+    
+    nav ul {
+      display: flex;
+      gap: 1.9rem;
+    }
+    
+    nav ul li {
+      font-weight: var(--negrita);
+    }
+    
+    .menu-hamburguesa {
+        color: var(--primary-color);
+        font-size: 2rem;
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+        display: none;
+}    
+
+.body{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 5px rgba(5, 5, 5, 0.295);
+    text-align: center;
+}
+
+button{
+padding: 8px;
+background-color: rgb(52, 52, 247);
+border: none;
+border-radius: 5px;
+color: white;
+margin-top: 10px;
+}
+
+button:hover{
+    transition: 0.6s;
+    transform:scale(1.1);
+    background-color: rgb(70, 70, 245);
+}
